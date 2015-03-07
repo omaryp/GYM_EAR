@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="GYM_EAR-1.0-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
+        <dependent-module archiveName="GYM_EJB-1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/GYM_EJB/GYM_EJB">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dpfpenrollment-1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/digitalpersona/onetouch/dpfpenrollment/1.0/dpfpenrollment-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dpfpverification-1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/digitalpersona/onetouch/dpfpverification/1.0/dpfpverification-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dpotapi-1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/digitalpersona/onetouch/dpotapi/1.0/dpotapi-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dpotjni-1.0.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/com/digitalpersona/onetouch/dpotjni/1.0/dpotjni-1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="GYM_WEB-1.0-SNAPSHOT.war" deploy-path="/" handle="module:/resource/GYM_WEB/GYM_WEB">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
